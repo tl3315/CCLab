@@ -1,0 +1,49 @@
+body,
+h1,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  background-color: indigo;
+}
+
+.doc-title {
+  margin: 20px;
+}
+
+.highlight {
+  background-color: aqua;
+}
+
+.title {
+  /*background-color: blueviolet; */
+  margin: 10px 0;
+}
+
+.description {
+  /* background-color: aquamarine; */
+}
+
+.box {
+  background-color: aliceblue;
+  width: 160px;
+  height: 150px;
+
+  margin: 20px;
+  padding: 5px;
+  /* border-style: dashed; */
+  border-width: 2px;
+
+}
+
+#special-box {
+  background-color: yellow;
+
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
